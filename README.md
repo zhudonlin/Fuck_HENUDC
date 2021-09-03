@@ -41,28 +41,28 @@ users:
 
   - user:
       #别名，多用户的时候用于区分用户
-      nickname: '我的名字'
+      nickname: '1'
       #类型请勿更改
       type: 1
       #qmsg KEY 请到：https://qmsg.zendee.cn/me.html 了解更多信息
-      qmsg: '这里填写你的qmsgkey'
+      qmsg: 'd03ec0b6a603ee8341839d9d097c03f3'
       #收信人QQ
-      qq: '这里填写你的收信QQ'
+      qq: '2603776737'
       #学校全称，仅支持河南大学
-      schoolName: '河南大学'
+      schoolName: '河南牧业经济学院'
       #学号或者工号
-      username: '这里填写你的学号'
+      username: '19180101058'
       #密码
-      password: '这里填写你的密码'
+      password: '134533'
       #您的UA，可以通过二维码获取（仅限安卓用户），这是区别您和他人的重要一步，但实际上服务器并不会拿UA作为判断依据，所以懒人可以直接用我的
       ua: 'Mozilla/5.0 (Linux; Android 8.1.0; 16th Plus Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.110 Mobile Safari/537.36'
       #地址信息
       #附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
-      address: '河南省开封市顺河回族区塔云路'
+      address: '湖南省邵阳市双清区双坡北路'
       #lon 经度，一定要精确到小数点后5位
-      lon: 114.37695
+      lon: 111.502623
       #lat 纬度，一定要精确到小数点后5位
-      lat: 34.82027
+      lat: 27.25458
       #填写表单时判断是否与您预设的一一对应，不对应就会报错，建议开启
       checkTitle: 1
       #在校内填0，在校外填1
@@ -72,20 +72,20 @@ users:
       #表单信息，目前的信息和河南大学签到的内容一致
       forms:
         - form:
-            title: 1. 暑假期间，本人身体健康状况是否良好 (必填)
-            value: 是
+            title: 1. 今天体温是否正常
+            value: 体温正常（＜37.3℃）
         - form:
-            title: 2. 暑假期间，与本人共同居住者身体健康状况是否良好 (必填)
-            value: 是
+            title: 2. 今天是否去过中高风险地区
+            value: 否
         - form:
-            title: 3. 暑假期间，是否有中高风险地区旅居史 (必填)
+            title: 3. 今天是否有跨市域移动
             value: 否
         - form:
             title: 4. 暑假期间，是否接触过确诊病例或无症状感染者 (必填)
             value: 否
         - form:
-            title: 5. 本人是否承诺以上所填信息真实有效，自愿承担因隐瞒不报产生的一切后果 (必填)
-            value: 是
+            title: 5. 今日状态
+            value: 正常
 
 
 #将以上的 - user再复制一遍可以定义多个用户
